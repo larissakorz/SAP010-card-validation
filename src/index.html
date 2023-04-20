@@ -6,9 +6,68 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <div class="divGeral">
+      <header>
+        <p>HEADER</p>
+      </header>
+
+      <main>
+        <div class="container">
+          <div class="title">
+            <p>Pagamento</p>
+          </div>
+
+          <div class="cartao">
+            <div class="div1">
+              <div class="chip">
+                <img src="chip.png" alt="">
+              </div>
+              <div class="bank">
+                <p>102BANK</p>
+              </div>
+            </div>
+
+            <div class="div2">
+              <p id="numeroDoCartao">Número do cartão</p>
+              <p id="numeroDoCartao1">**** **** **** ****</p>
+            </div>
+            <div class="div3">
+              <div class="nome">
+                <p>Nome</p>
+              </div>
+              <div class="validade">
+                <p>Expiry Date: xx/xx </p>
+              </div>
+            </div>
+          </div>
+
+          <form>
+            <div class="geral">
+              <div class="numeroCartao">
+                <label>Nº Cartão</label>
+                <input id='numDigitado' type="number" maxlength="10" placeholder="1234 5678 9123 4567">
+              </div>
+
+              <div class="divNome">
+                <label>Nome</label>
+                <input id='nomeDaPessoa' type="text" placeholder="Digite seu nome...">
+              </div>
+
+              <div class="divValidade">
+                <label>Validade</label>
+                <input id='validadeCartao' type="month">
+              </div>
+
+            </div>
+
+            <button>Verificar</button>
+          </form>
+        </div>
+      </main>
+
+      <footer>Feito por Larissa Korz</footer>
+    </div>
+
     <script src="index.js" type="module"></script>
   </body>
 </html>

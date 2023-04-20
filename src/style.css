@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: rgb(191, 191, 187);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 400px;
+  height: 355px;
+  border-radius: 15px;
+  background: rgb(225, 225, 222);
+}
+
+.title{
+  width: 200px;
+  text-align: center;
+  margin: 10px auto;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cartao{
+  color: white;
+  width: 190px;
+  height: 110px;
+  border-radius: 10px;
+  margin: 15px auto;
+  background-image: linear-gradient(to right, rgb(132, 57, 130), rgb(247, 8, 203));
+}
+
+.div1{
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.chip img{
+  width: 30px;
+}
+
+.chip, .bank{
+  margin-top: 5px;
+}
+
+.div2{
+  height: 40px;
+}
+
+#numeroDoCartao, #numeroDoCartao1{
+  font-size: 13px;
+  margin: 5px 0px 0px 7px;
+}
+
+.div3{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.nome{
+  margin: 12px 0px 0px 7px;
+  font-size: 13px;
+}
+
+.validade{
+  font-size: 11px;
+  margin-right: 5px;
+}
+
+form{
+  height: 170px;
+}
+
+.geral{
+  width: 350px;
+  height: 120px;
+  margin-left: 22px;
+}
+
+.numeroCartao, .divNome, .divValidade{
+  margin: 5px;
+}
+
+.divNome label{
+  margin: 0px 14px 0px 10px;
+}
+
+.divValidade label{
+  margin-right: 7px;
+}
+
+input{
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  width: 200px;
+}
+
+button{
+  margin: 10px 0px 0px 125px;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: rgb(244, 55, 225);
+  color: white;
+}
+
+button:hover{
+  background-color: rgb(132, 57, 130);
+}
+
