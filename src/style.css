@@ -13,8 +13,8 @@ body{
 }
 
 .container{
-  width: 400px;
-  height: 355px;
+  width: 550px;
+  height: 450px;
   border-radius: 15px;
   background: rgb(225, 225, 222);
 }
@@ -22,18 +22,18 @@ body{
 .title{
   width: 200px;
   text-align: center;
-  margin: 10px auto;
-  font-size: 20px;
+  margin: auto;
+  font-size: 25px;
   font-weight: bold;
 }
 
-.cartao{
+.card{
   color: white;
-  width: 190px;
-  height: 110px;
+  width: 230px;
+  height: 140px;
   border-radius: 10px;
   margin: 15px auto;
-  background-image: linear-gradient(to right, rgb(132, 57, 130), rgb(247, 8, 203));
+  background-image: linear-gradient(to right, rgb(20, 56, 110), rgb(90, 125, 208));
 }
 
 .div1{
@@ -54,9 +54,9 @@ body{
   height: 40px;
 }
 
-#numeroDoCartao, #numeroDoCartao1{
-  font-size: 13px;
-  margin: 5px 0px 0px 7px;
+#numberOfCard, #numberOfCard1{
+  font-size: 15px;
+  margin: 5px 0px 0px 10px;
 }
 
 .div3{
@@ -65,12 +65,12 @@ body{
   border-radius: 0px 0px 10px 10px;
 }
 
-.nome{
-  margin: 12px 0px 0px 7px;
-  font-size: 13px;
+.nameP{
+  margin: 18px 0px 0px 10px;
+  font-size: 15px;
 }
 
-.validade{
+.validity{
   font-size: 11px;
   margin-right: 5px;
 }
@@ -82,18 +82,18 @@ form{
 .geral{
   width: 350px;
   height: 120px;
-  margin-left: 22px;
+  margin-left: 90px;
 }
 
-.numeroCartao, .divNome, .divValidade{
+.numbersCard, .divName, .divValidity{
   margin: 5px;
 }
 
-.divNome label{
+.divName label{
   margin: 0px 14px 0px 10px;
 }
 
-.divValidade label{
+.divValidity label{
   margin-right: 7px;
 }
 
@@ -101,22 +101,107 @@ input{
   border: none;
   border-radius: 5px;
   padding: 8px;
-  width: 200px;
+  width: 210px;
 }
 
-button{
-  margin: 10px 0px 0px 125px;
-  width: 150px;
-  height: 40px;
+.buttons{
+  display: flex;
+}
+
+#button, #buttonIndex, #buttonIndex2{
+  margin: 20px 0px 0px 80px;
+  width: 160px;
+  height: 45px;
   border-radius: 5px;
   border: none;
   cursor: pointer;
   font-weight: bold;
-  background-color: rgb(244, 55, 225);
+  background-color: rgb(90, 125, 208);
   color: white;
 }
 
-button:hover{
-  background-color: rgb(132, 57, 130);
+#button:hover{
+  background-color: rgb(20, 56, 110);
+}
+
+/* -----  Index  -----  */
+
+.geralIndex{
+  width: 100%;
+  height: 100vh;
+}
+
+header{
+  height: 60px;
+}
+
+#titleIndex{
+  text-align: center;
+  margin-top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+main{
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerIndex{
+  width: 500px;
+  height: 400px;
+  background-color: rgb(20, 56, 110);
+  border-radius: 30px;
+}
+
+.divOne{
+  margin-top: 70px
+}
+
+.divOne p{
+  color: rgb(212, 204, 204);
+  font-size: 20px;
+  text-align: center;
+}
+
+span{
+  background-color: rgb(97, 189, 118);
+  color: black;
+}
+
+.imgGif img{
+  width: 250px;
+}
+
+.imgGif{
+  text-align: center;
+}
+
+#buttonIndex{
+  margin-left: 155px;
+  width: 200px;
+}
+
+#buttonIndex a, #buttonIndex2 a{
+  text-decoration: none;
+  color: white;
+  background-color: rgb(90, 125, 208);
+}
+
+#buttonIndex:hover, #buttonIndex2:hover{
+  background-color: rgb(125, 136, 151);
+  color: white;
+}
+
+footer{
+  height: 30px;
+}
+
+#footer{
+  text-align: center;
+  margin-top: 7px;
+  font-weight: bold;
 }
 

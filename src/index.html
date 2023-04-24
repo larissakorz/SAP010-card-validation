@@ -1,73 +1,35 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="divGeral">
-      <header>
-        <p>HEADER</p>
-      </header>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validação de cartão</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="geralIndex">
+    <header>
+      <p id="titleIndex">Validação de cartão</p>
+    </header>
 
-      <main>
-        <div class="container">
-          <div class="title">
-            <p>Pagamento</p>
+    <main>
+        <div class="containerIndex">
+          <div class="divOne">
+            <p>Deseja verificar se seu cartão é <span>VÁLIDO</span> para<br>a realização de compras? Clique no botão abaixo!</p>
           </div>
 
-          <div class="cartao">
-            <div class="div1">
-              <div class="chip">
-                <img src="chip.png" alt="">
-              </div>
-              <div class="bank">
-                <p>102BANK</p>
-              </div>
-            </div>
-
-            <div class="div2">
-              <p id="numeroDoCartao">Número do cartão</p>
-              <p id="numeroDoCartao1">**** **** **** ****</p>
-            </div>
-            <div class="div3">
-              <div class="nome">
-                <p>Nome</p>
-              </div>
-              <div class="validade">
-                <p>Expiry Date: xx/xx </p>
-              </div>
-            </div>
+          <div class="imgGif">
+            <img src="gif.gif" alt="">
           </div>
 
-          <form>
-            <div class="geral">
-              <div class="numeroCartao">
-                <label>Nº Cartão</label>
-                <input id='numDigitado' type="number" maxlength="10" placeholder="1234 5678 9123 4567">
-              </div>
-
-              <div class="divNome">
-                <label>Nome</label>
-                <input id='nomeDaPessoa' type="text" placeholder="Digite seu nome...">
-              </div>
-
-              <div class="divValidade">
-                <label>Validade</label>
-                <input id='validadeCartao' type="month">
-              </div>
-
-            </div>
-
-            <button>Verificar</button>
-          </form>
+          <button id="buttonIndex"><a href="card.html">Clique aqui!</a></button>
         </div>
-      </main>
+    </main>
 
-      <footer>Feito por Larissa Korz</footer>
-    </div>
-
-    <script src="index.js" type="module"></script>
-  </body>
+    <footer>
+      <p id="footer">Feito por Larissa Korz</p>
+    </footer>
+  </div>
+</body>
 </html>
