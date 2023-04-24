@@ -24,5 +24,4 @@ function verificar() {
     alert(maskifyCard + " é Inválido! Favor inserir seu número de cartão novamente")
   }
 
-  numCartao.value = ""
 }
