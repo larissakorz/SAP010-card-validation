@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <p>Pagamento</p>
+      </div>
+
+      <div class="card">
+        <div class="div1">
+          <div class="chip">
+            <img src="imgs/chip.png" alt="">
+          </div>
+          <div class="bank">
+            <p>BANK</p>
+          </div>
+        </div>
+
+        <div class="div2">
+          <p id="numberOfCard">Número do cartão</p>
+          <p id="numberOfCard1">**** **** **** ****</p>
+        </div>
+
+        <div class="div3">
+          <div class="nameP">
+            <p id="name">Nome</p>
+          </div>
+          <div class="validity">
+            <p>Expiry Date: xx/xx </p>
+          </div>
+        </div>
+      </div>
+
+      <form>
+        <div class="geral">
+          <div class="numbersCard">
+            <label>Nº Cartão</label>
+            <input id="numDigitado" type="text" maxlength="16" placeholder="1234 5678 9123 4567">
+          </div>
+
+          <div class="divName">
+            <label>Nome</label>
+            <input id="inputName" type="text" placeholder="Digite seu nome...">
+          </div>
+
+          <div class="divValidity">
+            <label>Validade</label>
+            <input id="validadeCartao" type="month">
+          </div>
+        </div>
+
+        <div class="buttons">
+          <input id="button" type="button" value="Verificar">
+          <button id="buttonIndex2"><a href="index.html">Voltar</a></button>
+        </div>
+
+      </form>
+    </div>
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
