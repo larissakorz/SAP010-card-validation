@@ -33,7 +33,7 @@ body{
   height: 140px;
   border-radius: 10px;
   margin: 15px auto;
-  background-image: linear-gradient(to right, rgb(20, 56, 110), rgb(90, 125, 208));
+  background-image: linear-gradient(to right, rgb(20, 56, 110), rgb(108, 143, 223));
 }
 
 .div1{
@@ -47,7 +47,7 @@ body{
 }
 
 .chip, .bank{
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .div2{
