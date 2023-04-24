@@ -18,6 +18,8 @@ Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
 
 ## 2. Resumo do projeto
 
+![preview](https://larissakorz.github.io/SAP010-card-validation/)
+
 BANKORZ
 
 Foi desenvolvido um site para usuários de todo o Brasil poderem confirmar se seu cartão é válido ou não. Antes de qualquer compra em alguma loja, você poderá entrar em nosso site para verificar, basta digitar seu número de cartão, seu nome e a validade do cartão.
