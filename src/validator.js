@@ -26,7 +26,7 @@ const validator = {
   },
 
   maskify: function(creditCardNumber){
-    const numMask = creditCardNumber.replace(/.(?=.{4})/g, "#")
+    const numMask = creditCardNumber.replace(/.(?=.{4})/g, "#");
 
     return numMask;
   }
