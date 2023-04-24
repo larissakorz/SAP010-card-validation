@@ -18,8 +18,7 @@ Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
 
 ## 2. Resumo do projeto
 
-# Link projeto final
-(https://larissakorz.github.io/SAP010-card-validation/index.html)
+[Link projeto final](https://larissakorz.github.io/SAP010-card-validation/index.html)
 
 BANKORZ
 
