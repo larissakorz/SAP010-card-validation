@@ -49,6 +49,7 @@ Se seu cartão for válido, aparecerá um ALERT dizendo que sua compra poderá s
 HTML<br>
 CSS<br>
 JavaScript<br>
+Figma<br>
 Git<br>
 Github<br>
 
