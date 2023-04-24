@@ -35,36 +35,36 @@ Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
 
 BANKORZ
 
-Desenvolvemos um site para usuários de todo o Brasil poderem confirmar se seu cartão é válido ou não. Antes de qualquer compra em alguma loja, você poderá entrar em nosso site para verificar, basta digitar seu número de cartão, seu nome e a validade do cartão.
+Foi desenvolvido um site para usuários de todo o Brasil poderem confirmar se seu cartão é válido ou não. Antes de qualquer compra em alguma loja, você poderá entrar em nosso site para verificar, basta digitar seu número de cartão, seu nome e a validade do cartão.
 
 ## 3. Desenvolvimento do projeto
 
 Primeiro foi pensado em um layout
 
-
+![preview](./src/imgs/prototipo.png)
 
 Em seguida em um fluxograma
 
 ![preview](./src/imgs/fluxogramaCard.png)
 
-## 3. Projeto Final
+## 4. Projeto Final
 
 Tela inicial
 
 ![preview](./src/imgs/index.jpeg)
 
-Após o usuário clicar no botão verificar, irá para outra página, a seguir imagem da tela para verificar seu cartão
+Após o usuário clicar no botão Clique aqui, irá para outra página, a seguir imagem da tela para verificar seu cartão
 
 ![preview](./src/imgs/card.jpeg)
 
 Se seu cartão for válido, aparecerá um ALERT dizendo que sua compra poderá ser feita. Caso contrário, será inválido e deverá inserir novamente um número de cartão válido.
 
-## 3. Ferramentas Utilizadas
+## 5. Ferramentas Utilizadas
 
-HTML
-CSS
-JavaScript
-Git
-Github
+HTML<br>
+CSS<br>
+JavaScript<br>
+Git<br>
+Github<br>
 
 
